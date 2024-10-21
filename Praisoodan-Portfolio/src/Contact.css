@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box; 
+}
+.Container{
+    margin-left: 0px!important;
+    }
+.Contact-Page {
+    height: 100%;
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+Content a{
+   text-decoration: none;
+}
+.Email:hover{
+    color:  #f9ae65;
+}
+.Email{
+    color: #3c6d79;
+    margin-left: -22px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.Linkedin:hover{
+    color:  #f9ae65;
+}
+.Linkedin{
+    color: #3c6d79;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.Github:hover{
+    color:  #f9ae65;
+}
+.Github{
+    color: #3c6d79;
+    margin-right: -16px;
+    margin-left: -27px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.Phone:hover{
+    color:  #f9ae65;
+}
+.Phone{
+    color: #3c6d79;
+    margin-left: -10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.container-values {
+    max-width: 100%;
+    padding: 15px; 
+}
+
+.Contact-Page h3 {
+    margin-top: 50px;
+    color:#f9ae65;
+    text-align: center;
+    padding: 15px;
+}
+
+.Container-Items p {
+    max-width: 100%;
+    margin: 0 auto; /* Center align */
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px; /* Reduced from 300px */
+    color: black;
+    margin-bottom: 70px;
+}
+.End-text{
+    text-align: center;
+}
+
+.Contact-con {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    max-width: 100%;
+    text-align: center;
+}
+
+/* For smaller screens */
+@media (max-width: 767px) {
+    .container-values {
+        padding: 10px; /* Add spacing for mobile */
+    }
+
+    .Contact-con {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .Container-Items p {
+        margin-top: 20px; /* Further reduce top margin */
+        padding: 0;
+    }
+    
+    .Content-URL {
+        word-break: break-word; /* Ensure long URLs break properly */
+    }
+    
+    .Github, .Linkedin, .Email, .Phone {
+        font-size: 20px; /* Adjust icon size for mobile */
+    }
+}

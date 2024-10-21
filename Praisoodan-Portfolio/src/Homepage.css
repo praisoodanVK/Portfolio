@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins ,sans-serif;
+    box-sizing: border-box; 
+
+}
+.Container{
+    margin-left: 0px!important;
+    }
+body{
+    overflow-x: hidden;
+   
+}
+.Home-image{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.Home-image img{
+    height: 250px;
+    width: 250px;
+    border-radius: 60%;
+    border: 2px solid  #3c6d79;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.Home-image img:hover{
+    border:2px solid #f9ae65;
+    transform: scale(1.2);
+}
+.Home-Container{
+    /* text-align: justify; */
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+   
+   }
+   .HomePage-1 {
+max-width: 780px;
+        width: 100%;
+        margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .HomePage-1 h1{
+        text-align: center;
+    }
+.react{
+    color:#f9ae65;
+    background-color: black;
+    border-radius: 1px;
+    padding: 0px 3px;
+}
+.f-e{
+    color: #ffff;
+    background-color: black;
+    border-radius: 1px;
+    padding: 0px 3px;
+}
+.Home-icons{
+    font-size: 25px;
+
+}
+.Github{
+    font-size: 50px;
+}
+
+
+.Home-icons .Linkedin,.Github,.Instagram{
+    color: #3c6d79;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+    margin-right: -20px;
+ }
+  .Linkedin:hover { 
+    color:#f9ae65;
+ }
+ .Home-icons>.Github :hover { 
+    color:#f9ae65;
+ }
+ .Home-icons>.Instagram:hover { 
+    color:#f9ae65;
+ }
+ .Tech-Stack img{
+height: 20px;
+width: 20px;
+ }
+ .Tech-Stack i{
+    padding: 10px;
+ }
+ .Tech-Stack{
+    margin-top: 30px;
+ }
+ .Resume .Download{
+    font-size: 25px;
+    color:#3c6d79;
+    
+    cursor: pointer;
+ }
+
+ .Resume .Download:hover{
+    font-size: 25px;
+    color: #f9ae65;
+ }
+
+ .Home-icons a{
+    text-decoration: none;
+ }
+ .Instagram{
+    margin-left: -14px;
+ }
